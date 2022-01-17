@@ -9,8 +9,8 @@ import SwiftUI
 
 struct IrradiatedButtons: View {
     @State private var radiatingOutwards: Bool = true
-    @State private var animationOutwardsScaler: Double = 2.0
-    @State private var animationInwardsScaler: Double = 2.0
+    @State private var radiatingOutwardsScaler: Double = 2.0
+    @State private var radiatingInwardsScaler: Double = 0
     
     var body: some View {
             Button(action: {
@@ -24,9 +24,9 @@ struct IrradiatedButtons: View {
                 .clipShape(Circle())
                 .overlay(Circle()
                             .stroke(radiatingOutwards ? .green : .red)
-                            .scaleEffect(radiatingOutwards ? 2 : 0)
+                            .scaleEffect(radiatingOutwards ? radiatingOutwardsScaler : radiatingInwardsScaler)
                             .opacity(radiatingOutwards ? 0 : 1)
-                            .animation(.easeIn(duration: 1), value: radiatingOutwards ? 0 : 2)
+                            .animation(.easeIn(duration: 1), value: radiatingOutwards ? radiatingOutwardsScaler : radiatingInwardsScaler)
                 )
     }
 }
