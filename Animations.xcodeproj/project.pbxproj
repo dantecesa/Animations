@@ -14,6 +14,7 @@
 		6B8D695927931A56007537B9 /* AnimatedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8D695827931A56007537B9 /* AnimatedString.swift */; };
 		6B8D695D27931D13007537B9 /* IntroScriptDemo-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6B8D695B27931CDD007537B9 /* IntroScriptDemo-Medium.otf */; };
 		6B8D696027932F34007537B9 /* OldButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8D695F27932F34007537B9 /* OldButtons.swift */; };
+		6BBA5DB42795C2E700A73E60 /* PivotRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBA5DB32795C2E700A73E60 /* PivotRectangle.swift */; };
 		6BDFAC3C2791DA6E0024CA97 /* AnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDFAC3B2791DA6E0024CA97 /* AnimationsApp.swift */; };
 		6BDFAC3E2791DA6E0024CA97 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDFAC3D2791DA6E0024CA97 /* ContentView.swift */; };
 		6BDFAC402791DA6F0024CA97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BDFAC3F2791DA6F0024CA97 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 		6B8D695B27931CDD007537B9 /* IntroScriptDemo-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IntroScriptDemo-Medium.otf"; sourceTree = "<group>"; };
 		6B8D695E27931DC8007537B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		6B8D695F27932F34007537B9 /* OldButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldButtons.swift; sourceTree = "<group>"; };
+		6BBA5DB32795C2E700A73E60 /* PivotRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PivotRectangle.swift; sourceTree = "<group>"; };
 		6BDFAC382791DA6E0024CA97 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BDFAC3B2791DA6E0024CA97 /* AnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsApp.swift; sourceTree = "<group>"; };
 		6BDFAC3D2791DA6E0024CA97 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +54,7 @@
 			children = (
 				6B8D695827931A56007537B9 /* AnimatedString.swift */,
 				6B8D6956279296E7007537B9 /* IrradiatedButton.swift */,
+				6BBA5DB32795C2E700A73E60 /* PivotRectangle.swift */,
 				6B8D695427929424007537B9 /* ChameleonButtons.swift */,
 				6B8D695227928ECA007537B9 /* AnimatedTrafficLight.swift */,
 				6B8D695027928B3B007537B9 /* DraggableCard.swift */,
@@ -177,6 +180,7 @@
 				6B8D6957279296E7007537B9 /* IrradiatedButton.swift in Sources */,
 				6BDFAC3C2791DA6E0024CA97 /* AnimationsApp.swift in Sources */,
 				6B8D695527929424007537B9 /* ChameleonButtons.swift in Sources */,
+				6BBA5DB42795C2E700A73E60 /* PivotRectangle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

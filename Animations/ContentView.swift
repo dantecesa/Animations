@@ -26,6 +26,7 @@ struct ContentView: View {
                 NavigationLink("Chameleon Buttons") { ChameleonButtons() }
                 NavigationLink("Irradiated Button") { IrradiatedButtons() }
                 NavigationLink("Animated String") { AnimatedString() }
+                NavigationLink("Pivot Rectangle") { PivotRectangle() }
                 Spacer()
                 //NavigationLink("Old buttons") { OldButtons() }
             }
